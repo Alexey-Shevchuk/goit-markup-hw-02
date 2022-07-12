@@ -75,9 +75,6 @@ text-decoration: none;
     color: var(--title-text-color);
 }
 
-.site-nav-link.current {
-    color: var(--accent-color);
-}
 
 .contact-link {
     color: var(--primary-text-color);
