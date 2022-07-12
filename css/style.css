@@ -156,3 +156,27 @@ text-decoration: none;
 .member-title {
     font-weight: 500;
 }
+
+
+
+
+
+/* підвал сайту */
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-map {
+    color: var(--primary-bg-color);
+}
+
+.address-link {
+    color: var(--footer-contacts-color);
+}
