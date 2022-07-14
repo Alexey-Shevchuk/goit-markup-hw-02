@@ -17,6 +17,8 @@
     --logo-studio-header-color: #000;
     /* колір фону ""Наша команда */
     --secondary-bg-color: #f5f4fa;
+    /* фон кнопки в hero-btn */
+    --background-color-hero-btn: #188CE8;
 }
 
 
@@ -74,7 +76,10 @@ text-decoration: none;
 .site-nav-link {
     color: var(--title-text-color);
 }
-
+.site-nav-link.current {
+    color: var(--accent-color);
+  }
+  
 
 .contact-link {
     color: var(--primary-text-color);
@@ -111,7 +116,7 @@ text-decoration: none;
 .hero-btn:hover,
 .hero-btn:focus {
     color: var(--accent-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--background-color-hero-btn);
 }
 
 /*=========== загальний стиль в секціях ======*/
@@ -218,3 +223,8 @@ footer {
     color: var(--primary-text-color);
   }
   
+  .active {
+    background-color: var(--accent-color) !important;
+    color: var(--order-title-text-color) !important;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
